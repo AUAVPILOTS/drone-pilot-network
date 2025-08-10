@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="FAA Certified Commercial Drone Pilot – Connecting Opportunities in the UAS Industry." />
+  <title>Drone Pilot Network</title>
+  <style>
+    :root{
+      --bg:#0b0e13;--card:#0f1720;--muted:#98a0b0;--accent:#00c6ff;--glass:rgba(255,255,255,0.04);
+      --maxw:1100px;--radius:14px;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#071029 120%);color:#fff;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:24px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,#08306b,#0066ff);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:1.25rem;margin:0}
+    nav{display:flex;gap:12px}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+
+    .hero{margin-top:28px;border-radius:var(--radius);overflow:hidden;display:grid;grid-template-columns:1fr;align-items:center;background:linear-gradient(180deg,rgba(0,0,0,0.35),rgba(0,0,0,0.45));min-height:48vh}
+    .hero .media{background-image:url('https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');background-size:cover;background-position:center;filter:contrast(1.02) saturate(1.05);min-height:48vh}
+    .hero .copy{padding:48px}
+    .eyebrow{color:var(--accent);font-weight:700;margin-bottom:8px}
+    .headline{font-size:2rem;margin:0 0 12px}
+    .sub{color:var(--muted);margin:0 0 18px}
+    .ctas{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{background:var(--accent);color:#06101a;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:24px;margin-top:24px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+    .section h2{margin:0 0 8px}
+    .list{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+    .service{background:var(--glass);padding:12px;border-radius:10px;color:var(--muted)}
+
+    .portfolio-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    .thumb{height:120px;background-size:cover;background-position:center;border-radius:8px}
+
+    form{display:flex;flex-direction:column;gap:10px}
+    input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:#fff}
+    input::placeholder,textarea::placeholder{color:#8f98a6}
+    .muted{color:var(--muted);font-size:0.95rem}
+
+    footer{margin:36px 0 12px;color:var(--muted);text-align:center}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.hero{min-height:40vh}.hero .copy{padding:22px}.headline{font-size:1.4rem}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">DP</div>
+        <div>
+          <h1>Drone Pilot Network</h1>
+          <div class="muted">FAA Part 107 • Commercial Drone Services</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#network">Pilot Network</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="media" aria-hidden="true"></div>
+      <div class="copy">
+        <div class="eyebrow">Connecting Pilots & Opportunities</div>
+        <h2 class="headline">FAA Certified Drone Pilot — Subcontracting, Mapping, Inspections & Aerial Media</h2>
+        <p class="sub">A lightweight, fast landing page to route pilot leads, job posts, and contractor requests straight to the AUAV community and your inbox.</p>
+        <div class="ctas">
+          <a class="btn" href="#contact">Request a Quote</a>
+          <a class="btn ghost" href="https://linkd.in/g9h4H8yA" target="_blank" rel="noopener">Join AUAV Group</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <main>
+        <section id="services" class="card section">
+          <h2>Services</h2>
+          <p class="muted">Professional drone services for commercial clients and contractors.</p>
+          <div class="list">
+            <div class="service">Aerial Photography & Video — marketing, real estate, events</div>
+            <div class="service">Mapping & Surveying — photogrammetry, GIS-ready deliverables</div>
+            <div class="service">Inspections — infrastructure, roofs, solar, telecom</div>
+            <div class="service">Subcontracting & Crew Support — local pilots for large projects</div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="card section" style="margin-top:18px">
+          <h2>Portfolio</h2>
+          <p class="muted">Select thumbnails — click to expand (placeholder images)</p>
+          <div class="portfolio-grid" style="margin-top:10px">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1508610048659-a06b669e3321?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60')"></div>
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60')"></div>
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60')"></div>
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60')"></div>
+          </div>
+        </section>
+
+        <section id="network" class="card section" style="margin-top:18px">
+          <h2>Pilot Network</h2>
+          <p class="muted">Resources, job board links and group support. This site acts as a public hub to direct traffic to the AUAV community.</p>
+          <ul class="muted" style="margin-top:10px">
+            <li>AUAV Pilot Job Board — link to group</li>
+            <li>Post a job — screened submissions via contact form</li>
+            <li>Subcontractor directory — coming soon</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Contact</h3>
+          <p class="muted">Quickly request a quote or submit a job post — no heavy signup required.</p>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email address" required />
+            <input type="text" name="subject" placeholder="Subject (e.g., Mapping job)" />
+            <textarea name="message" rows="5" placeholder="Brief description / location / timeline"></textarea>
+            <button class="btn" type="submit">Send Request</button>
+          </form>
+          <p class="muted" style="margin-top:10px">Or email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3>Fast Tips</h3>
+          <ol class="muted">
+            <li>Keep imagery compressed (WebP) for speed.</li>
+            <li>Use GitHub Pages or Netlify for free hosting.</li>
+            <li>Link this page in your LinkedIn post to capture traffic.</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+
+    <footer>&copy; 2025 Drone Pilot Network — FAA Part 107</footer>
+  </div>
+
+  <script>
+    // Simple client-side form handler — replace with server or Netlify Forms for production
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thanks! The form submission is captured locally in the demo. Deploy with Netlify Forms or an API to receive messages.');
+    });
+  </script>
+</body>
+</html>
